@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="/static/styles.css" rel="stylesheet">
+        <title>Image Filter</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Image Filter</h1>
+        </div>
+        <div class="container">
+            <div class="section">
+                <form action="/download" method="post">
+                <div>
+                <a download='file' href="{{url_for('download')}}" >Download</a>
+                </div>
+            </form>
+            </div>
+            </div>
+        </div>
+    </body>
+</html>

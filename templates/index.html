@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="/static/styles.css" rel="stylesheet">
+        <title>Image Filter</title>
+    </head>
+    <body>
+        <div class="demo-wrap">
+        <img
+        class="demo-bg"
+        src="/static/anime.jpg"
+        alt="">
+        </div>
+        <div class="header">
+            <h1>Image Filter</h1>
+        </div>
+        <div class="container">
+            <div class="section">
+            <form action="/" method="post" enctype="multipart/form-data">
+                <select class="form-select" name="select" aria-label="Default select example">
+                    <option selected>Filter type</option>
+                    <option value="1">Blur</option>
+                    <option value="2">Edges</option>
+                    <option value="3">Black & White</option>
+                    <option value="4">Sepia</option>
+                  </select>
+                <input type = "file" name = "file" accept = "image/*" />
+                <button type="submit" name = "submit">Submit</button>
+
+                <div id ="instructions">
+                    Select a Filter type and image to upload. Filtered image will be shown on new page. Right click and download to save.
+                </div>
+            </form>
+            </div>
+            <style>
+                body {
+                  background-image: url('/static/anime.jpg');
+                  opacity: 0.75;
+                }
+                </style>
+            </div>
+        </div>
+        <div id = bottom class = "fixed">Ⓒ CodeSlap 2022</div>
+    </body>
+</html>
