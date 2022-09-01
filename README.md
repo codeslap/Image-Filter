@@ -100,9 +100,7 @@ used in the index. One of the cool new feautures I used was opacity which helped
 
 header that reads "Image Filter" semi-transperent using opacity. I also used bootstrap 
 
-for my selection
-
-for filter types. and one last noticeable thing is a copyright at the bottom of the  page 
+for my selection of filter types. and one last noticeable thing is a copyright at the bottom of the  page 
 
 which would always be visible (even through scrolling), given the page was longer.
 
